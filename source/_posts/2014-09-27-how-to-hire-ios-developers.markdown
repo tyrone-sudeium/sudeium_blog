@@ -26,7 +26,7 @@ Second, assuming you did well on the competence test, you now get to come on-sit
 
 You'll be given a scenario that is not in any way, shape or form representative of your roles or responsibilities in this job. For example, I'm interviewing as an iOS developer, and my scenario was that I was in a *client* meeting -- despite the fact that this online company doesn't have clients -- trying to work out exactly what they want us to deliver. Basically, the role of a Business Analyst. But I'm interviewing for a role as a developer. Remember, there are no less than *four* people all watching you stuff about doing something you'll never have to actually do in your job. For maximum candidate embarrassment, why not ask them to demonstrate a skill that they absolutely do not need for their role, like say, drawing! Yes, drawing! This particular scenario had the *four* people in the room yelling abstract thoughts at you asking you to draw on the whiteboard what you think they want you to deliver.
 
-Okay, so that's already pretty bullshit, but it keeps going! That's not even the last test! Once you've been adequately embarrassed by your stick figures, they move on to a *written* examination. It's divided into no less than *three* god damn sections: multiple choice, short answer and critical thinking. 
+Okay, so that's already pretty bullshit, but it keeps going! That's not even the last test! Once you've been sufficiently embarrassed by your stick figures, they move on to a *written* examination. It's divided into no less than *three* god damn sections: multiple choice, short answer and critical thinking. 
 
 The multiple choice stuff actually ranges from pretty elementary (which of the following is not an Objective-C keyword) to downright evil (what is the result of running the following C code; note that it looks deliberately obfuscated). This is yet another example of being forced to do a task that is in no way, shape or form representative to your roles or responsibilities. If in my job, I ever had to verify what a piece of deliberately obfuscated iOS Objective-C code does *without* being allowed access to a compiler or developer tools, fuck, I'd resign so hard physicists would have to invent a new kind of dark energy to explain how I got the fuck out of there so fast.
 
@@ -44,13 +44,13 @@ So, what exactly went wrong with all of the above? You might've noticed some rec
 
 ### Always Give Representative Scenarios
 
-This is by far the most important point. You might think it's absolutely critical to ensure your *developers* have fantastic requirements elicitation skills, but that candidate probably knows for a *fact* their day-to-day won't involve any work like that, and you probably know it to. This is just an example, but the principle applies to anything. Don't give them a task that they wouldn't *actually* get in their job, and you should aim to simulate the conditions by which they'll be given that task as accurately as possible.
+This is by far the most important point. You might think it's absolutely critical to ensure your *developers* have fantastic requirements elicitation skills, but that candidate probably knows for a *fact* their day-to-day won't involve any work like that, and you probably know it too. Requirements elicitation is just an example, but the principle applies to anything. Don't give them a task that they wouldn't *actually* get in their job, and you should aim to simulate the conditions by which they'll be given that task as realistically as possible.
 
-This means, they should absolutely be allowed to use reference material. They should have access to a compiler, they should be allowed to use the internet. Your scenario shouldn't be Google-able.
+This means they should absolutely be allowed to use reference material. They should have access to a compiler, they should be allowed to use the internet, their own notes and their own personal code library. Your scenario shouldn't be Google-able.
 
 ### Keep Your Interview Process Short and Straightforward
 
-Google is probably the most notorious company when it comes to jerking around their candidates for long periods of time and putting them through extreme pressure. You should know that this reflects very badly on your company. You may *say* you have great working conditions, but the candidate's first impression of your company is that you're the kind of place that puts potential hires through stress. I wouldn't interview at Google. I know plenty of really incredible, hard working, talented developers who shy away from interviewing there because they're heard horror stories about the interview process. I hate to think how much talent Google is passing up because some dickhead executive gets a hard-on over stressing their candidates to breaking point.
+Google is probably the most notorious company when it comes to jerking around their candidates for long periods of time and putting them through extreme pressure. You should know that this reflects very badly on your company. You may *say* you have great working conditions, but the candidate's first impression of your company is that you're the kind of place that puts potential hires through stress. Personally, *I* wouldn't interview at Google. I know plenty of really incredible, hard working, talented developers who shy away from interviewing there because they've heard horror stories about the interview process. I hate to think how much talent Google is passing up because some dickhead executive gets a hard-on over stressing their candidates to breaking point.
 
 Ideally, your process should consist of two steps: determining technical competence, and determining cultural fit. You can come up with your own method for measuring this in candidates, but I'll give an example of how we've done this later.
 
@@ -66,9 +66,9 @@ Creative open-ended questions also allow the candidate to really show you their 
 
 ### Comfort Counts
 
-You should seriously consider allowing your candidate to perform the technical task in the comfort of their own home, or wherever they work best. This requires them to have all the necessary tools at home to do so, but if they don't, that should already be setting off alarm bells. If you're uncomfortable giving your candidate unlimited time, you can always timebox the task by carefully co-ordinating emails.
+You should seriously consider allowing your candidate to perform the technical task in the comfort of their own home, or in whatever environment they work best. This requires them to have all the necessary tools at home to do so, but if they don't, that should already be setting off alarm bells. If you're uncomfortable giving your candidate unlimited time, you can always timebox the task by carefully co-ordinating emails.
 
-If you allow your teams to work remotely, I'd consider this one absolutely mandatory. Even if you don't, it's obvious to everyone that job interviews are stressful and nerve-wracking, but people seem to completely forget about this when the shoe's on the other foot. Stress and nerves can have serious detrimental effects on your reasoning and ability, so you should aim to minimise this as much as possible when examining their technical and creative ability. If you're worried about them not being able to work well in your workplace, well, after a while they'll get comfortable there too. They almost certainly won't be comfortable there during an interview.
+If you allow your teams to work remotely, I'd consider this point absolutely mandatory. Even if you don't, think back to when you were interviewing for your job. It's obvious to everyone that job interviews are stressful and nerve-wracking, but people seem all too eager to perpetrate this when the shoe's on the other foot. Stress and nerves can have serious detrimental effects on your reasoning and mental abilities. You should aim to minimise this as much as possible when examining their technical and creative ability. If you're worried about them not being able to work well in your workplace, well, after a short while they'll get comfortable there too. They almost certainly won't be comfortable there during an interview.
 
 ### Incompatible Candidates Should Be Let Off Quickly
 
@@ -76,9 +76,9 @@ The vast majority of your candidates will probably fail. Your process should exp
 
 ## Our Screening Test
 
-So there's a lot of criteria there, but I think I've come up with an elegant implementation. The recruiter or talent scout should do their basic checks first, getting resumés and all that good stuff, but once they're handed off to the hiring team, we will give them a scenario like this:
+So there's a lot of criteria there, but I think I've come up with an elegant implementation. The recruiter or talent scout should do their basic checks first, getting resumés and all that good stuff, but once they're handed off to our team, we will give them a scenario like this:
 
-> Your manager has given the following code from a colleague for code review. Please review the code for any issues and report back. Be creative! Outline any assumptions you've made as part of your response. Be sure to back up your criticism with constructive suggestions on how to improve the code. There's an impending deadline, so you must complete your code review within 30 minutes, as evidenced by email timestamp. The code is pretty old, and is sadly still manually reference counted.
+> Your manager has given you the following code from a colleague for code review. Please review the code for any issues and report back. Be creative! Outline any assumptions you've made as part of your response. Be sure to back up your criticism with constructive suggestions on how to improve the code. There's an impending deadline, so you must complete your code review within 30 minutes, as evidenced by email timestamp. The code is pretty old, so it is sadly still manually reference counted.
 
 ### `UITeamView.h`
 ``` objc
@@ -169,7 +169,7 @@ From the interviewer's perspective, this format has several advantages:
 * We can ascertain how compatible we are with the candidate's opinion of best practice.
 * It is maintainable; it's resistant to changes in industry best practice. For the most part, the answers will change, not the question.
 * It gives outstanding candidates the opportunity to really show off.
-* It's a pretty realistic scenario. There's nothing in here that you wouldn't be expected to do as part of your job.
+* It's a pretty realistic scenario. There's nothing in here that the candidate wouldn't be expected to do as part of your job. This gives me just the information that is relevant and makes it quicker and easier to judge the competence of the candidate.
 * It doesn't take long to send this standard email template to a candidate. If they don't pass, it's easy to reject them, and it'll happen early, saving us time.
 * We can read into the way the candidate thinks by the kinds of answers they choose to give, in their limited time:
   * Juniors tend to focus on the superficial; the syntax errors, spelling mistakes, bad naming.
@@ -179,6 +179,7 @@ From the interviewer's perspective, this format has several advantages:
 All this from a 30 minute test that can be done remotely!
 
 From the candidate's perspective, it has these advantages:
+
 * It gives me the opportunity to be creative and really demonstrate my abilities.
 * I can do this with my tools, my setup and my method, without the pressures of an interview environment or having strangers breathing down my neck.
 * It shouldn't *feel* like it's outside my comfort zone.
@@ -202,4 +203,4 @@ It's really up to your discretion how you run this part. Just keep in mind my su
 
 The people doing the hiring tend to forget that with the truly great candidates, when you're interviewing, you are not the only one that is passing judgement. A good candidate will almost certainly be sizing *you* up for whether your company is the kind of place they want to work. As a company, you should be trying to impress your candidates, at least as much as they're trying to impress you! Putting them through stress and ordeal will make them less likely to pick your company if they're given multiple offers.
 
-Hiring is not an exact science. There's no foolproof method to get 100% great results all the time. There's so much more involved in this than I've covered here, but if you find ways to optimise and cut down your interview process, it will save everyone time, especially yours and your candidate's, and it might just leave everyone feeling a lot better.
+Hiring is not an exact science. There's no foolproof method to get 100% great results all the time. There's so much more involved in this than I've covered here, but if you find ways to optimise and cut down your interview process, it will save everyone time, especially yours and your candidate's. Finally, getting this right might just leave everyone involved in this awful process just feeling a lot better.
