@@ -8,6 +8,8 @@ categories: [Programming, Project Management]
 
 Just as it is with coding standards, everyone thinks they have the answers when it comes to hiring new people. I'm under no such delusions. I don't pretend that this method will work for everyone. It won't. This is simply the mechanism that I used to hire the team I currently work with. The team in question has turned out rather spectacularly, thanks in no small part to the effectiveness of this method. If you or your business is looking to hire more developers, I'd encourage you to consider this method, or at the very least, consider simplifying your hiring process to just the bare essentials that tell you what you're *really* looking for.
 
+<!--more-->
+
 When I first moved to Melbourne, I interviewed at maybe *seven* different companies. I've been on the receiving end of a lot of different styles of hiring processes. Let's talk about some of the bullshit ones first. If you're just here for tips and are not interested in anecdotes, feel free to skip to [Improving Your Interview System](#improving).
 
 ### Interview Only

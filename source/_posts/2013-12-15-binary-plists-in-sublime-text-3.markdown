@@ -14,6 +14,8 @@ it first.  The common answer to this is "just use Xcode!" -- however, anyone
 that's actually _used_ Xcode before will know just how much it sucks at casual
 editing.  Opening Xcode is a commitment I'm just not willing to make sometimes.
 
+<!--more-->
+
 Sublime Text
 ============
 

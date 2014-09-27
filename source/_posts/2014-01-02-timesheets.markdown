@@ -16,6 +16,8 @@ by watching tickets change status. Others require developers, particularly
 contractors, to log all their billable hours to a task in the project, with
 an expectation that the time spent should match up with the estimates.
 
+<!--more-->
+
 It's a slippery slope that has a tendency to quickly result in a ridiculous
 obsession with timesheets. It culminates in the company requiring that
 employees fill out timesheets *daily* with an expectation that they're

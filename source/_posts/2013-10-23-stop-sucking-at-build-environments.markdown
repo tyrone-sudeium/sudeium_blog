@@ -28,6 +28,8 @@ things it's good at is solving problems that it's responsible for creating in
 the first place.  Your net gain from using Jenkins is damn-near close to zero,
 but you inherit a massive amount of maintainence burden.
 
+<!--more-->
+
 It's a prime example of what I was talking about [a couple of days ago][1]:
 
 > If your software isn’t at least as nice to use as the proprietary stuff, 

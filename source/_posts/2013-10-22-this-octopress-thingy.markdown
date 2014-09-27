@@ -29,6 +29,8 @@ proprietary stuff, why do you even bother?  You shouldn't just settle for
 mediocrity and hope that because you're open source you'll get a decent
 userbase of digital hipsters.  
 
+<!--more-->
+
 The client for OS X is horribly ugly.  Did you lot just hand this to the
 intern uni student to do?  Seriously, get a load of this uggo -- and this is
 the image they chose show on their homepage!
