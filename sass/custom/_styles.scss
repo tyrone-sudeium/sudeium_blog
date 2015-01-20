@@ -3,3 +3,19 @@
 li {
   line-height: 32px;
 }
+
+td, th {
+	padding: 0.25rem 1.0rem;
+	border: 1px solid rgba(255,255,255,0.3);
+}
+
+th {
+	background: rgba(255,255,255,0.1);
+}
+
+.code {
+	td {
+		padding: inherit;
+		border: inherit;
+	}
+}
