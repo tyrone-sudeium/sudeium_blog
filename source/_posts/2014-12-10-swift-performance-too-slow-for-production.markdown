@@ -12,7 +12,7 @@ you'd know that I'm not the biggest fan of Swift. I think the rollout of it has
 been an absolute disaster: the [compiler][BugReport] is a [shambles][Issues], 
 the language design is inconsistent in places[^1] and it's stupidly difficult
 to get working in libraries, particularly if you want to support iOS 7. Surely
-though, at the very least its performance would be all right, after all, it's
+though, at the very least its performance would be all right. After all, it's
 designed to be more static and do more checking at compile-time and is _meant_
 to be made with the LLVM optimiser in mind...
 
@@ -227,6 +227,8 @@ unfortunately our product isn't open source, and it _will_ in fact be our
 production code someday. Feel free to leave a comment if you want to know more
 about what the code did, and I'll tell you what I can.
 
+UPDATE: I should point out that all these tests were run on Xcode 6.1.1
+(6A2006), with whatever Swift compiler comes with that. RubyMotion was at 2.38.
 
 [^1]: Like [subscripting](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Subscripts.html), which uses `get` and `set` syntax just like a _property_, but they are declared with a _function_ style syntax? There's no good reason for this that I can see...
 [^2]: This isn't a criticism. I understand that it's just an extension of the idea that computer time is less valuable than human time, and Ruby lets you write programs faster to save human time. I appreciate, and even respect that world-view.
