@@ -172,7 +172,7 @@ a *build product*, and all *build products* should be in your `.gitignore` file
 (or similar, if you're still using legacy version control systems).  The ideal
 scenario is this:
 
-```
+{% highlight sh linenos %}
 	$ git clone <myrepo>
 	Cloning into '<myrepo>'...
 	...
@@ -183,7 +183,7 @@ scenario is this:
 	$ git status
 	# On branch master
 	nothing to commit, working directory clean
-```
+{% endhighlight %}
 
 If you managed to get your terminal into this state, congratulations!  You're
 one step closer to having an un-fucked build environment!
@@ -258,21 +258,21 @@ to *Run Script* scripts in your build get passed in, and a few extra ones.
 If you're curious as to exactly what all the environment variables are, create
 a script like this:
 
-```
+{% highlight sh linenos %}
 env > /tmp/env
-```
+{% endhighlight %}
 
 Then, archive your app and check out the contents of /tmp/env.  Some 
 interesting ones:
 
-``` sh
+{% highlight sh linenos %}
 ${PROJECT_DIR} # absolute path to folder containing the .xcodeproj
 ${ARCHIVE_PATH} # absolute path to .xcarchive
 ${WRAPPER_NAME} # name of the resulting .app file
 ${TARGET_NAME} # target that was compiled
 ${ARCHIVE_PRODUCTS_PATH} # absolute path to .xcarchive/Products
 ${ARCHIVE_PRODUCTS_PATH}/Applications/${WRAPPER_NAME} # absolute path to .app
-```
+{% endhighlight %}
 
 This lets you do some really interesting things after an archive has finished,
 such as automatically re-signing the app, creating an IPA with embedded
