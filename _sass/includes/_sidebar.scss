@@ -1,4 +1,8 @@
 .sidebar {
+  h1 {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
   padding: $padding-small 5%;
   float: left;
   width: 30%;
@@ -10,14 +14,13 @@
       margin: 0;
       padding: 0;
       list-style: none;
-      line-height: 2.0;
-      // float: right;
-      // text-align: right;
+      line-height: 1.2;
     }
     li {
-      // display: inline;
-      // float: left;
-      // margin-right: 0.4em;
+      margin-bottom: 1.0em;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
