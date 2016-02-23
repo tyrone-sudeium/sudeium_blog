@@ -83,8 +83,8 @@ So there's a lot of criteria there, but I think I've come up with an elegant imp
 
 > Your manager has given you the following code from a colleague for code review. Please review the code for any issues and report back. Be creative! Outline any assumptions you've made as part of your response. Be sure to back up your criticism with constructive suggestions on how to improve the code. There's an impending deadline, so you must complete your code review within 30 minutes, as evidenced by email timestamp. The code is pretty old, so it is sadly still manually reference counted.
 
+{% highlight objc linenos %}
 ### `UITeamView.h`
-``` objc
 #import <UIKit/UIKit.h>
 #import <Model/Developer.h>
 #import <Model/Manager.h>
@@ -103,10 +103,10 @@ So there's a lot of criteria there, but I think I've come up with an elegant imp
 @property (retain) UIView *mView;
 
 @end
-```
+{% endhighlight %}
 
+{% highlight objc linenos %}
 ### `UITeamView.m`
-``` objc
 #import <TeamView.h>
 
 @implementation UITeamView
@@ -162,7 +162,7 @@ So there's a lot of criteria there, but I think I've come up with an elegant imp
 }
 
 @end
-```
+{% endhighlight %}
 
 As well as this, I have a fairly long "model" answer, which can be used as a benchmark, but I won't share it here! This "model" answer doesn't have all the answers -- that's kinda the whole point! Interesting, creative answers that *aren't* in the "model" answer should actually be very exciting!
 

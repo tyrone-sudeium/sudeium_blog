@@ -19,9 +19,9 @@ having a premium [Dropbox][] subscription -- that I should have a go
 at setting it up.  Fortunately, getting it working in Ubuntu is pretty much as
 simple as:
 
-```
+{% highlight sh linenos %}
     sudo apt-get install owncloud
-```
+{% endhighlight %}
 
 At this point I can pretty much consider that plan a failure.  Open Source 
 guys, listen up: if your software isn't at least as nice to use as the 

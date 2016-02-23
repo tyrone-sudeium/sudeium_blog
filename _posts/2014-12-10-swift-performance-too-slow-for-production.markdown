@@ -37,7 +37,7 @@ enough. At the time, the project was entirely Swift, and it made use of the
 pretty nice [JSONHelper] library to make the deserialisers look nicer. An
 example of what my Swift-like solution looked like:
 
-```swift
+{% highlight swift linenos %}
 import Foundation
 
 public class User : ModelObject, UpdatableFromJSON {
@@ -55,7 +55,7 @@ public class User : ModelObject, UpdatableFromJSON {
         handle <<< data["handle"]
     }
 }
-```
+{% endhighlight %}
 
 So far, so nice. 
 
@@ -116,7 +116,7 @@ just like the Swift code was written in a distinctly Swift style.
 
 An example of what the Objective-C looked like:
 
-{% highlight objective-c linenos %}
+{% highlight objc linenos %}
 @interface CSUser : CSModelObject
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *handle;
@@ -189,7 +189,7 @@ dynamic language. Anyway...
 
 Here's an example of what that Ruby looked like:
 
-```Ruby
+{% highlight Ruby linenos %}
 class CSUser < CSModelObject
   attr_accessor :name, :handle
 
@@ -199,7 +199,7 @@ class CSUser < CSModelObject
     self.handle = json[:handle]
   end
 end
-```
+{% endhighlight %}
 
 RubyMotion doesn't seem to have any options for the optimiser. It seems to just
 default to having optmisation on if you build for device, which would be in
