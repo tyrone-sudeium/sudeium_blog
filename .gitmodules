@@ -1,6 +1,0 @@
-[submodule ".themes/calm-shallow-sea"]
-	path = .themes/calm-shallow-sea
-	url = git://github.com/alexharris/calm-shallow-sea.git
-[submodule ".themes/octoflat"]
-	path = .themes/octoflat
-	url = git@bitbucket.org:tyrone_sudeium/octoflat.git
