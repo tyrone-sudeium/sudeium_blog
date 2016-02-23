@@ -41,6 +41,7 @@ After *all* that, they'll take you on a tour of the office so you can marvel at 
 If you're curious, I apparently aced this particular interview and was offered a position. I'll get back to this later.
 
 <a id="improving"></a>
+
 ## Improving Your Interview System
 
 So, what exactly went wrong with all of the above? You might've noticed some recurring themes there, but here I'll spell out some of the common mistakes in interview processes.
@@ -83,8 +84,9 @@ So there's a lot of criteria there, but I think I've come up with an elegant imp
 
 > Your manager has given you the following code from a colleague for code review. Please review the code for any issues and report back. Be creative! Outline any assumptions you've made as part of your response. Be sure to back up your criticism with constructive suggestions on how to improve the code. There's an impending deadline, so you must complete your code review within 30 minutes, as evidenced by email timestamp. The code is pretty old, so it is sadly still manually reference counted.
 
-{% highlight objc linenos %}
 ### `UITeamView.h`
+
+{% highlight objc linenos %}
 #import <UIKit/UIKit.h>
 #import <Model/Developer.h>
 #import <Model/Manager.h>
@@ -105,8 +107,9 @@ So there's a lot of criteria there, but I think I've come up with an elegant imp
 @end
 {% endhighlight %}
 
-{% highlight objc linenos %}
 ### `UITeamView.m`
+
+{% highlight objc linenos %}
 #import <TeamView.h>
 
 @implementation UITeamView
