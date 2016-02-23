@@ -1,0 +1,166 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://blog.sudeium.com
+title: iMad
+subtitle: Ramblings of a ridiculously cynical iOS developer
+author: Tyrone
+simple_search: http://google.com/search
+description:
+
+# Default date format is "ordinal" (resulting in "July 22nd 2007")
+# You can customize the format as defined in
+# http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
+# Additionally, %o will give you the ordinal representation of the day
+date_format: "ordinal"
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss: /atom.xml
+subscribe_email:
+# RSS feeds can list your email address if you like
+email: tyrone@sudeium.com
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+gems: [jekyll-paginate]
+
+# If publishing to a subdirectory as in http://site.com/project set 'root: /project'
+root: /
+permalink: /:year/:month/:day/:title/
+destination: public
+plugins_dir: plugins
+code_dir: downloads/code
+category_dir: blog/categories
+exclude: [drafts]
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+recent_posts: 5       # Posts in the sidebar Recent Posts section
+excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_separator: "<!--more-->"
+
+titlecase: true       # Converts page and post titles to titlecase
+
+# list each of the sidebar modules you want to include, in the order you want them to appear.
+# To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
+default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+
+# Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
+# and add an array with the asides you want to use.
+# blog_index_asides:
+# post_asides:
+# page_asides:
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+# Github repositories
+github_user: tyrone-sudeium
+github_repo_count: 0
+github_show_profile_link: true
+github_skip_forks: true
+
+# Twitter
+# twitter_user: aetherealle
+twitter_tweet_button: true
+
+# Google +1
+google_plus_one: false
+google_plus_one_size: medium
+
+# Google Plus Profile
+# Hidden: No visible button, just add author information to search results
+googleplus_user:
+googleplus_hidden: false
+
+# Pinboard
+pinboard_user:
+pinboard_count: 3
+
+# Delicious
+delicious_user:
+delicious_count: 3
+
+# Disqus Comments
+disqus_short_name:
+disqus_show_comment_count: false
+
+# Google Analytics
+google_analytics_tracking_id: UA-58720396-1
+
+# Facebook Like
+facebook_like: false
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: iMad
+  avatar: avatar.jpg
+  gravatar: # Email MD5 hash
+  description: "A website with blog posts and pages" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <h2>iMad</h2>
+     <p>Ramblings of a ridiculously cynical iOS developer</p>
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> based on a modified <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>. Copyright © 2016 Tyrone Trevorrow 
+
+  # Icons
+  rss: false
+  email_address: tyrone@sudeium.com # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "tyrone-sudeium"
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam: 
+  tumblr:
+  twitter:
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: UA-58720396-1 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+  
+  # Post navigation
+  post_navigation: true
