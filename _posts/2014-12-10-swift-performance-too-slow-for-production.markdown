@@ -240,5 +240,5 @@ UPDATE: I should point out that all these tests were run on Xcode 6.1.1
 [PerformancePost]: http://www.jessesquires.com/apples-to-apples-part-three/
 [Marketing]: https://www.apple.com/au/swift/
 [JSONHelper]: https://github.com/isair/JSONHelper
-[SampleJSON]: /images/convos.json
+[SampleJSON]: /img/convos.json
 [RubyMotion]: http://www.rubymotion.com
