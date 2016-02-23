@@ -20,7 +20,7 @@ at setting it up.  Fortunately, getting it working in Ubuntu is pretty much as
 simple as:
 
 {% highlight sh linenos %}
-    sudo apt-get install owncloud
+sudo apt-get install owncloud
 {% endhighlight %}
 
 At this point I can pretty much consider that plan a failure.  Open Source 

@@ -173,16 +173,16 @@ a *build product*, and all *build products* should be in your `.gitignore` file
 scenario is this:
 
 {% highlight sh linenos %}
-	$ git clone <myrepo>
-	Cloning into '<myrepo>'...
-	...
-	$ cd <myrepo>
-	$ xcodebuild
-	=== BUILD TARGET MyAwesomeApp OF PROJECT MyApp WITH THE DEFAULT CONFIGURATION (Release) ===
-	...
-	$ git status
-	# On branch master
-	nothing to commit, working directory clean
+$ git clone <myrepo>
+Cloning into '<myrepo>'...
+...
+$ cd <myrepo>
+$ xcodebuild
+=== BUILD TARGET MyAwesomeApp OF PROJECT MyApp WITH THE DEFAULT CONFIGURATION (Release) ===
+...
+$ git status
+# On branch master
+nothing to commit, working directory clean
 {% endhighlight %}
 
 If you managed to get your terminal into this state, congratulations!  You're
