@@ -34,7 +34,7 @@ destination: public
 plugins_dir: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-exclude: [drafts]
+exclude: [drafts, README.markdown, README.md, config.rb, config.ru, Gemfile.lock, Gemfile, LICENSE]
 
 # PAGINATION
 paginate: 5
@@ -107,13 +107,19 @@ google_analytics_tracking_id: UA-58720396-1
 # Facebook Like
 facebook_like: false
 
+image:
+  src: '/img/avatar.jpg'
+  height: 460
+  width: 460
+  type: 'image/jpeg'
+
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
   title: iMad
   avatar: avatar.jpg
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Ramblings of a ridiculously cynical iOS developer" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -121,7 +127,7 @@ theme:
      <p>Ramblings of a ridiculously cynical iOS developer</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> based on a modified <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>. Copyright © 2016 Tyrone Trevorrow 
+   Proudly a <a href="http://jekyllrb.com">Jekyll</a> static site, based on a modified <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>. Copyright © 2013 - 2018 Tyrone Trevorrow 
 
   # Icons
   rss: false
