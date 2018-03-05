@@ -12,12 +12,13 @@ Melbourne, Victoria, Australia.
 
 In my spare time I like to play with:
 
-* Ruby / mruby / Crystal
-* Native Android
+* Ruby / Crystal
+* Native macOS
 * React Native
+* TypeScript, Node.js
 
-I'm also working on an application to help emergency services personnel manage
-their volunteers: [MemberHub](https://www.memberhub.com.au).
+I'm also working on a social, peer-to-peer currency exchange application
+[Marco Polee](https://www.marcopolee.com).
 
 ## Disclaimer
 
