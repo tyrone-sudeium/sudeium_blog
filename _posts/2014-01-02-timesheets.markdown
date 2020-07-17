@@ -7,6 +7,18 @@ published: false
 categories: [Programming, Project Management, Rant]
 ---
 
+<!--
+Note to source code readers:
+I unpublished this post for three main reasons:
+1. I don't like my tone. It's bratty, immature, and nonconstructive.
+2. This calls out a specific organization a bit too personally, albeit not by
+   name.
+3. Its existence just doesn't help anything.
+
+My stance on timesheets remains the same, but you should probably find a better
+written post about it.
+-->
+
 There's a big disconnect in the professional IT world between the various
 managers attached to the project and the development team. This usually results
 in amusing quirks and inefficiencies and a whole lot of documentation. One of
