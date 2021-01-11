@@ -16,6 +16,7 @@ In my spare time I like to play with:
 * React Native
 * TypeScript, Node.js
 * RPG Maker / [EasyRPG](https://github.com/easyrpg)
+* Rust
 
 ## Disclaimer
 
