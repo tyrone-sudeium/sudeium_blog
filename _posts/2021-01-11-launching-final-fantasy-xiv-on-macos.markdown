@@ -79,7 +79,7 @@ real Windows, so perhaps it's in `wine/dlls/kernel32`?
 
 Sure enough, in [`sync.c`][syncc] we see:
 
-{% highlight c %}
+{% highlight c linenos %}
 DWORD WINAPI DECLSPEC_HOTPATCH GetTickCount(void)
 {
     /* note: we ignore TickCountMultiplier */
@@ -93,7 +93,7 @@ of digging I discovered `wine/server/fd.c`.
 
 In [`fd.c`][fdc] we see:
 
-{% highlight c %}
+{% highlight c linenos %}
 static void set_user_shared_data_time(void)
 {
     timeout_t tick_count = monotonic_time / 10000;
@@ -114,7 +114,7 @@ static void set_user_shared_data_time(void)
 Getting close, in the same file I can see that the global `monotonic_time` is
 set in `set_current_time` like:
 
-{% highlight c %}
+{% highlight c linenos %}
 monotonic_time = monotonic_counter();
 {% endhighlight %}
 
