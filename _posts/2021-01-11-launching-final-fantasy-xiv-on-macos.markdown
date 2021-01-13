@@ -11,7 +11,8 @@ version is essentially an identical build of the Windows version, except it
 runs in a customised version of [Wine](https://www.winehq.org/). The launcher
 / patcher for FFXIV is pretty famously disliked, and for Windows users there's
 a very good [custom one](https://github.com/goatcorp/FFXIVQuickLauncher), but
-unfortunately it doesn't work for Mac. So I made my own.
+unfortunately it doesn't work for Mac.
+[So I made my own](https://github.com/tyrone-sudeium/LaunchXIV).
 
 One of the more interesting challenges in doing so was dealing with how the
 FFXIV Launcher passes arguments between the launcher and the main game
