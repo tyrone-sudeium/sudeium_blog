@@ -3,8 +3,11 @@
 
 root = true
 
-; Use 2 spaces for indentation in all Ruby files
+[*]
+; We aren't savages here
+end_of_line = lf
 
+; Use 2 spaces for indentation in all Ruby files
 [*.rb]
 indent_style = space
 indent_size = 2

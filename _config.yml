@@ -77,7 +77,6 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-# twitter_user: aetherealle
 twitter_tweet_button: true
 
 # Google +1
@@ -127,7 +126,7 @@ theme:
      <p>Ramblings of a ridiculously cynical developer</p>
   header_text_feature_image:
   footer_text: >
-   Shamefully a <a href="http://jekyllrb.com">Jekyll</a> static site, based on a modified <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>. Copyright © Tyrone Trevorrow 
+   Shamefully a <a href="http://jekyllrb.com">Jekyll</a> static site, based on a modified <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>.
 
   # Icons
   rss: false
