@@ -21,6 +21,8 @@ compile performance.
 To workaround this, you can basically force your project to cross-compile
 when using the `iphonesimulator` SDK to the `x86_64` ARCH.
 
+<!--more-->
+
 ## Xcconfig
 
 If you're using `.xcconfig` files, simply add this to your common `.xcconfig` if
